@@ -1,0 +1,12 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: brown;
+    background-color: lightgray;
+}
+h1 {
+    color: white;
+}
+p {
+    color: blue;
+}
