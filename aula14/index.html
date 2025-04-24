@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+        }
+        div:hover{
+            color: red;
+        }
+        #simples{
+            background-color: lightcyan;
+            text-align: center;
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+        }
+        .grupo2{
+            color: green;
+        }
+        .grupo1{
+            text-align: end;
+        }
+        body{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h2{
+            color: darkolivegreen;
+        }
+        #principal2{
+            color: blue;
+            text-align: center;
+        }
+        #principal {
+            width: 351px;
+            height: 50px;
+            background-color: lightgray;
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            padding: 20px;
+            outline-style: solid;
+            outline-width: 30px;
+            outline-color: blue;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="principal">Aula 14 de ConWeb: CSS</h1>
+    <br>
+    <hr>
+    <h1 id="principal2">Seletor Personalizado ID</h1>
+    <h2 class="grupo1">Capítulo 1</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure beatae sed porro perferendis culpa veniam, molestiae voluptas optio earum officia laudantium aperiam in assumenda vero magni molestias nesciunt enim cumque.</p>
+    <h2 class="grupo2">Capítulo 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit facilis maiores quaerat itaque minus dignissimos consequuntur expedita dolor enim. Magni ullam adipisci similique at animi nam distinctio vero eligendi cupiditate.</p>
+    <h1 class="grupo2">Seletor Personalizado CLASS</h1>
+    <h2 class="grupo1">Capítulo 3</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam voluptatum veniam ullam provident beatae placeat neque nostrum quaerat, minus nesciunt fugit modi quia blanditiis. Recusandae possimus dolorem molestiae? Quibusdam, magnam?</p>
+    <h2 class="grupo2">Capítulo 4</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa aspernatur, eum illum alias inventore voluptate, natus rem reiciendis veniam commodi pariatur sunt cumque nemo! Est nobis cum inventore provident.</p>
+    <br>
+    <hr>
+    <h1 class="grupo2">Exemplo de hover</h1>
+    <div id="simples"> passe o mouse AQUI
+        <p>TEXTO SURPRESA</p>
+    </div>
+    <br>
+    <hr>
+    <a href="pag02.html">pag. 2 pra simplificar</a>
+</body>
+</html>
