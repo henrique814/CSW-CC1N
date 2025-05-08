@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        #bgtotal{
+            display: flex;
+            justify-content: space-around;
+        }
+        .preto{
+            background-color: black;
+            height: 6px;
+            width: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        .primeira{
+            padding: 10px;
+            border-radius: 10px;
+            border: 3px solid black;
+            width: 450px;
+            height: 400px;
+        }
+        .segunda{
+            padding: 10px;
+            border-radius: 10px;
+            border: 3px solid black;
+            width: 450px;
+            height: 240px;
+        }
+        .terceira{
+            padding: 10px;
+            border-radius: 10px;
+            border: 3px solid black;
+            width: 450px;
+            height: 200px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>Formulario</h2>
+    <div id="bgtotal">
+    <div class="primeira"><h1>Dados pessoais</h1>
+    <form action="pag02.html" method="post">
+        <label for="nome-usuario">Nome:</label>
+        <input type="text" name="nome-usuario" size="40" maxlength="40" value="" placeholder="Digite seu nome" required>
+    </form>
+    <br>
+        <form action="pag02.html" method="post">
+            <label for="idade-usuario">Idade:</label>
+            <input type="text" name="idade-usuario" size="40" maxlength="3" value="" placeholder="Digite sua idade" required>
+        </form>
+        <br>
+        <form action="pag02.html" method="post">
+            <label for="E-mail-usuario">E-mail:</label>
+            <input type="email"name="E-mail-usuario" size="40" maxlength="3" value="" placeholder="Digite seu E-mail" required>
+        </form>
+        <br>
+        <form action="" method="get">
+            <label for="cor">Escolha uma cor:</label>
+            <select name="cores" size="1">
+                <option value="">selecione</option>
+                <option value="preto"><div class="preto"></div></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+        </form>
+        <br>
+        <form action="" method="get">
+            <label for="data-hora">Data e Hora:</label>
+            <input type="datetime-local" name="data-hora" value="" placeholder="dd/mm/aaaa --/--">
+        </form>
+    </div>
+    <div>
+        <div class="segunda"><h1>Login</h1></div>
+        <div></div><div></div>
+    </div>
+    <div>
+        <div class="terceira"></div>
+    </div>
+</div>
+</body>
+</html>
